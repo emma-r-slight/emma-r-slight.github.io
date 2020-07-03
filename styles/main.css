@@ -11,3 +11,45 @@ body{
     background: #fff;
     color: #000;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav ul li {
+    padding: 0px 10px;
+    font-family: 'Livvic', sans-serif;
+}
+
+.main-nav ul li a:hover {
+    color: #999999;
+    cursor: pointer;
+}
+
+.main-nav ul.menu {
+    flex: 1;
+    margin-left: 20px;
+}
