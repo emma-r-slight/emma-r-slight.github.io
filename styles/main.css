@@ -5,6 +5,9 @@
 }
 
 body{
-    font-family: 'Montserrat Alternates', sans-serif
-
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.5px;
+    font-size: 15px;
+    background: #fff;
+    color: #000;
 }
