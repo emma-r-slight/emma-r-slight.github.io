@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Montserrat Alternates', sans-serif;
-    line-height: 1.5px;
+    /* line-height: 1.5px; */
     font-size: 15px;
     background-color: #f7f8fc;
     color: #000;
@@ -57,14 +57,14 @@ ul {
 
 .main-image{
     width: 100%;
-    height: 200px;
+    height: 250px;
     /* background: url(../images/painting.jpg) no-repeat center center/cover; */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: flex-end;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     margin-bottom: 20px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 
@@ -77,39 +77,45 @@ ul {
 }
 
 h1{
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     font-size: 70px;
 }
 
 .blog-entry {
-    padding: 2em;
-    display: grid;
-    grid-template-columns: repeat(autofit)
+    /* padding: 1rem; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 2rem;
+  max-width: 1000px;
+  margin: auto;}
 
 
-.card {
-    background-color: #fff;
-	border-radius: 10px;
-	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-	overflow: hidden;
-	width: 300px;
+.blog-page{
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    align-content: center;
 }
 
-.card-header img {
-	object-fit: cover;
+.blog-page img {
+    object-fit: cover;
 	height: 200px;
     width: 100%;
+    border-radius: 10px;
 }
 
-.card-body{
-    display:flex;
-    flex-direction: column;
-    align-items: start;
-    padding: 20px;
-    max-height: 100px;
+
+
+.blog-page h2 {
+/* padding: 20px; */
+    margin-bottom: 5px;
+    text-align: center;
 }
 
-.card-body h3{
-    font-size: 13px;
+.link{
+    display: block;
+    color: #0067b8;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
 
-}
+  }
