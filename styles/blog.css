@@ -60,11 +60,12 @@ body{
     margin: 5em;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    margin-bottom: 10rem;
 }
 h1{
     padding: 1em;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
 
 }
@@ -75,6 +76,7 @@ h2{
 }
 p{
     margin: 1rem 1.5rem 1rem 1.5rem;
+
 }
  .last {
      padding-bottom: 5rem;s
