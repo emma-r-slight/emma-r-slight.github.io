@@ -61,6 +61,7 @@ body{
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin-bottom: 10rem;
+    padding: 2rem;
 }
 h1{
     padding: 1em;
@@ -75,8 +76,15 @@ h2{
     text-align: center;
 }
 p{
-    margin: 1rem 1.5rem 1rem 1.5rem;
+    margin: 1rem 1.5rem 1.5rem 1.5rem;
 
 }
  .last {
      padding-bottom: 5rem; }
+
+ img{
+    object-fit: cover;
+    width: 90%;
+    ;
+
+}
