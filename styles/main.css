@@ -69,6 +69,7 @@ ul {
     margin-bottom: 20px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    border-radius: 10px;
 
 }
 
@@ -80,7 +81,11 @@ ul {
 
 h1{
     padding-bottom: 40px;
-    font-size: 70px;
+    font-size: 5rem;
+}
+p {
+    font-size: 1rem;
+    margin: 1rem 0 1rem 0;
 }
 
 .blog-entry {
@@ -119,6 +124,11 @@ h1{
     color: #0067b8;
     text-transform: uppercase;
     font-weight: bold;
-    text-align: center;
-
+     text-align: center;
   }
+
+footer{
+    background-color: #dedfe2;
+    text-align: center;
+    padding: 1rem;
+}
