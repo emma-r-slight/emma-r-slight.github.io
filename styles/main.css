@@ -84,8 +84,8 @@ h1{
     font-size: 5rem;
 }
 p {
-    font-size: 1rem;
-    margin: 1rem 0 1rem 0;
+    font-size: .75rem;
+    /* margin: 1rem 0 1rem 0; */
 }
 
 .blog-entry {
@@ -101,7 +101,7 @@ p {
     border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
     align-content: center;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .blog-page img {
@@ -109,6 +109,7 @@ p {
 	height: 200px;
     width: 100%;
     border-radius: 10px;
+    opacity: 0.8;
 }
 
 
@@ -127,8 +128,11 @@ p {
      text-align: center;
   }
 
-footer{
-    background-color: #dedfe2;
+.container footer{
+    padding: 0.5rem 0 1rem 0;
+    background-color: #fff;
     text-align: center;
-    padding: 1rem;
+    /* box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    font-size: 5px;
 }
