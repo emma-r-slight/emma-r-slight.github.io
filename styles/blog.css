@@ -47,7 +47,7 @@ body{
     font-family: 'Montserrat Alternates', sans-serif;
     /* line-height: 1.5px; */
     font-size: 15px;
-     background-color: #f7f8fc; */
+     background-color: #f7f8fc;
     color: #000;
     /* background: url(../images/pic6.jpg) no-repeat center center/cover; */
     opacity: .8;
@@ -64,7 +64,7 @@ body{
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin-bottom: 10rem;
-    padding: 1rem; */
+    padding: 1rem;
 }
 h1{
     padding: 1em;
